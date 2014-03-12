@@ -9,7 +9,7 @@ mail_joke("jean-louis.alarue@live.com")
 
 ## Specs
 of course you can invent your own jokes (the ones from the post are not very funny). Your program should:
-* Detect first name, last name and providers respecting this syntax `first_name.last_name@provider.com``
+* Detect first name, last name and providers respecting this syntax `first_name.last_name@provider.com`
 * If the mail does not respect this structure, your program will just consider the first part of the mail (before the `@` character) as the user's global name.
 * if the mail does not look like a mail, as `not_a@mail.at@all.com`, the function should raise an `ArgumentError`.
 
