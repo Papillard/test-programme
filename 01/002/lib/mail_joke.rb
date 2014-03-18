@@ -2,4 +2,5 @@
 
 def mail_joke(email)
   # TODO: Return a joke suited to the email provided
+  return "nimportequoi"
 end
