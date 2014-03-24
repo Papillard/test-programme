@@ -9,7 +9,7 @@ EMAIL_PATTERN = /([^\.@]+)(\.([^@]+))?@([^@]+)/
 def mail_joke(email)
   groups = EMAIL_PATTERN.match(email)
   if groups.nil?
-    raise ArgumentError.new("'#{email}'' is not a valid email address")
+    raise ArgumentError.new("'#{email}'' is not a valid email address...")
   else
     firstname = groups[1]
     lastname = groups[3]
